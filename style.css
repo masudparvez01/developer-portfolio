@@ -1,0 +1,41 @@
+/* Common Styles */
+* {
+  font-family: "Ephesis", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Header Section */
+nav .nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
+}
+.primary-color {
+  color: #fd6e0a;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  margin-right: 50px;
+}
+.btn-primary {
+  background-color: #fd6e0a;
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 18px 35px;
+}
